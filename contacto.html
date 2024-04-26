@@ -23,27 +23,20 @@
         </div>
     </header>
     <main>
-        <ul class="productos">
-            <li>
-                <h2>Cabello</h2>
-                <img src="imagenes/cabello.jpg">
-                <p class="descripcion">Con tijera o máquina, a gusto del cliente </p>
-                <p class="precio">S/30.00</p>
-            </li>
-            <li>
-                <h2>Barba</h2>
-                <img src="imagenes/barba.jpg">
-                <p class="descripcion">Corte y diseño profesional de barba</p>
-                <p class="precio">S/ 20.00</p>
-            </li>
-            <li>
-                <h2>Cabello + Barba</h2>
-                <img src="imagenes/cabello+barba.jpg">
-                <p class="descripcion">Paquete completo de cabello y barba</p>
-                <p class="precio">S/ 45.00</p>
-            </li>
-        </ul>
+        <form>
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="NombreApellido">
+            <label for="email">Email</label>
+            <input type="text" id="email">
+            <label for="telefono">Telefono</label>
+            <input type="text" id="telefono">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="textarea"></textarea>
 
+            <input type="submit" value="Enviar">
+
+            
+        </form>
     </main>
     <footer>
         <img src="imagenes/logo-blanco.png">
