@@ -89,3 +89,96 @@ footer{
     margin: 20px;
 
 }
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+
+form label, form p, fieldset legend{
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 20px;
+}
+
+
+
+form textarea{
+    display: block;
+    margin-top: 5px;
+    padding:10px 25px;
+    width: 50%;
+    height: 100px;
+}
+.boton{
+    margin-top: 25px;
+    padding: 10px 25px;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: #000;
+    border-radius: 5px;
+    transition: 3s all;
+    cursor: pointer;
+}
+.boton:hover{
+    background: #4ceaff;
+    color:black;
+    border-radius: 5px;
+    transform: scale(1.1) rotatez(360deg);
+    transition: 3s all;
+    cursor: pointer;
+        
+}
+.boton:focus{
+    background: white;
+    color:red;
+    border-radius: 5px;
+}
+
+.boton:active{
+    background: white;
+    color:red;
+}
+
+.input-padron{
+    display:block;
+    margin:0 0 20px;
+    padding:10px 25px;
+    width: 50%;
+}
+
+select, option {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 25%;
+    height: 2%;
+    font-size: 16px;
+    font-weight: bold;
+    border-color: transparent;
+    background-color: rgb(100, 150, 206);
+    ;
+}
+
+table{
+    margin: 40px 40px;
+    padding: 3px;
+}
+
+thead{
+    background-color: gray;
+    color:white;
+    font-weight: bold;
+    padding: 3px;
+}
+
+td, th {
+    border: 1px solid #000000 ;
+    padding: 8px 15px;
+    text-align: center;
+    font-weight: bold;
+}
