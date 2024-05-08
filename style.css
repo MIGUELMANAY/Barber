@@ -103,8 +103,7 @@ footer{
 
 }
 main {
-    width: 940px;
-    margin: 0 auto;
+ 
 }
 form{
     margin: 40px 0;
@@ -164,6 +163,7 @@ form textarea{
     width: 50%;
 }
 
+
 select, option {
     display: block;
     margin: 0 0 20px;
@@ -216,11 +216,12 @@ td, th {
 }
 
 .principal{
-    background-color: rgba(255, 135, 50, 0.815);
+    background-color: rgba(255, 255, 255, 0.815);
     background-size: 100%;
-    padding: 0 0 30px;
+    padding: 3en 0;
     width: 940px;
     position: relative;
+    margin: 0 auto;
 }
 
 .princioal p {
@@ -234,7 +235,11 @@ td, th {
 
 .mapa{
     padding: 3em 0;
-}
+    width: 940px;
+    margin: 0 auto;
+    background: linear-gradient(white, #C0C0C0) ;
+/* background: radial-gradient(RED,BLUE,green); -->
+*/}
 .mapa p{
     margin: 0 0 2em 0;
     text-align: center;
@@ -243,7 +248,6 @@ td, th {
 .utencilios{
     height: 200px;
    /* width: 20%;*/
-
     float: left;
     margin: 0 20px 20px 0 ;
 }
@@ -256,10 +260,13 @@ td, th {
     float: right;
 }
 .diferenciales{
-    font-family: 'Courier New', Courier;
-    padding: 0 auto;
-    background-color: antiquewhite;
+    font-family: 'ARIAL', Courier;
+    font-style: bold;
+    padding: 3em 0;
+    background-color: #c0c0c0;
     height: 350px;
+    width: 940px;
+    margin: 0 auto;
     /*vertical-align: middle;*/
 }
 
@@ -297,4 +304,9 @@ td, th {
 
 .items:first-child{
     font-style: italic;
+}
+
+.mapacontenido {
+    width: 940px;
+    margin: 0 auto;
 }
