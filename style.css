@@ -343,12 +343,24 @@ footer{
     margin: auto;
 }
 @media screen and (max-width:480px) {
+h1{
+    text-align: center;
+}
+nav{
+    position: static;
+}
 
 /*    body{
         background: red;
         }*/
     body .caja, .principal,.mapa iframe,.mapa,.video iframe,.video,.diferenciales, .contenido-diferenciales{
         width: auto;
-background: red;
-  
+
+    }
+
+}
+
+.lista-diferenciales, .imgdiferencial{
+width: 100%;
+
 }
